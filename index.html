@@ -69,7 +69,7 @@
 
             .banner img{
                 width: 100%;
-                height: 80vh;
+                height: 100vh;
             }
             
             .about p{
@@ -444,7 +444,7 @@
                 transition: 1s;
             }
             .gold{
-                color: #FFD700;
+                color: #a70000;
             }
             .underall{
               background: url(flamme.gif) no-repeat center center fixed;
@@ -574,7 +574,6 @@
                 color: white;
                 font-size: 20px;
                 background-color: #262626;
-                
                 text-shadow: 0 0 3px black, 0 0 5px black; 
                 background-color: #0000002d;
               }
@@ -679,6 +678,7 @@
                 font-family: Allerta Stencil;
                 color: rgb(206, 206, 206);
                 font-weight: 10;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
             }
             .sd2{
                 font-family: Allerta Stencil;
@@ -848,7 +848,17 @@
                 background-size: cover;
             }
             .b4{
-                background: url("back4.jpg") center no-repeat;
+                background: url("back5.jpg") center no-repeat;
+                background-size: cover;
+            }
+            .b5 img{
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                height: 40vw;
+            }
+            .b5{
+                background: url("back6.jpg") center no-repeat;
                 background-size: cover;
             }
             .bc2{
@@ -881,29 +891,25 @@
             }
             @keyframes goldenn {
                 0%{color: white;}
-                25%{color: #FFD700;}
-                75%{color: #FFD700;}
+                25%{color: #a70000;}
+                75%{color: #a70000;}
                 100%{color: white;}
             }
             .whiteanimat{
-                animation: wh 2s;
-                animation-iteration-count: infinite;
+                color: white;
             }
-            @keyframes wh {
-                0%{color: #e6e6e6;}
-                25%{color: white;}
-                75%{color: white;}
-                100%{color: #e6e6e6;}
+            .noshr{
+                width: 75%;
+                margin-left: auto;
+                margin-right: auto;
             }
-            
-
 </style>
 
 <body onload="alertt()">
     <div id="overlay"><center><br><br><br><br><br><img src="logo2.png" width="20%" height="20%"><br>
-    <br><br><h2 font-family="Allerta Stencil" width="80" id="para1" class="h22">It might take couple <span class="gold">seconds</span>.
-        <h2 id="para" font-family="Allerta Stencil" width="80"  class="h22">website is <span class="gold">ready !</span></h2></h2>
-<br><br><br>
+        <br><br><h2 font-family="Allerta Stencil" width="80" id="para1" class="h22">It might take couple <span class="gold">seconds</span>.
+            <h2 id="para" font-family="Allerta Stencil" width="80"  class="h22">website is <span class="gold">ready !</span></h2></h2>
+    <br><br><br>
 </center></div>
 <div  id="body">  
 <header >
@@ -967,6 +973,9 @@
                     <th class="dimg2"><img src="persdakhla.jpg" loading="lazy"></th>
             </tr>
             <tr>
+                <th colspan="3"><p class="sd">The king used is not in fact a precise charackter that existed in the past. Simply because we can't display every great arabic king so we made up a charakter that looks like every one of them.</p></th>
+            </tr>
+            <tr>
                 <th colspan="3"><br><br></th>
             </tr>
             <tr>
@@ -975,28 +984,37 @@
                 </p><br><br><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></th>
             </tr>
         </table>
-        <table class="tda3">
-            <tr>
-                <th colspan="3">&nbsp;</th>
-            </tr>
-            <tr>
-                <th colspan="3"><h2 class="h2d">Why <span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> ?</h2></th>
-            </tr>
-            <tr>
-                <th colspan="3">&nbsp;</th>
-            </tr>
-            <tr>
-                <th><img src="fact1.jpg"></th>
-                <th>&nbsp;</th>
-                <th><img src="fact2.jpg"></th>
-            </tr>
-            <tr>
-                <th colspan="3"><p class="sd">The story behing the quote describes precisely the arabic conquests. Veni vidi vici was wisely considered because the quote is attributed to Jeaulius Caeser who is not an arabic man , however , arabics themselves at that point in history welcomed other cultures.
-                    The original quote was :<br> <center><span class="pquote2ar"> "فــلا نـامــت أعيــن الجـبنــاء"</span></center>
-                </p></th>
-            </tr>
-        </table>
+        <hr class="noshr">
+
 </br>
+</div>
+<hr><hr>
+<div class="b5">
+    <br>
+    <table class="tda3">
+        <tr>
+            <th colspan="3">&nbsp;</th>
+        </tr>
+        <tr>
+            <th colspan="3"><h2 class="h2d">Why <span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> ?</h2></th>
+        </tr>
+        <tr>
+            <th colspan="3">&nbsp;</th>
+        </tr>
+        <tr>
+            <th><img src="fact1.jpg"></th>
+            <th>&nbsp;</th>
+            <th><img src="fact2.jpg"></th>
+        </tr>
+        <tr>
+            <th colspan="3"><p class="sd">The <span class="whiteanimat">story</span> behind the quote describes precisely the arabic conquests. Veni vidi vici was wisely considered because the quote is attributed to Julius Caesar who is not an arabic man , however , arabs themselves at that point in history welcomed other cultures.
+                The original quote was :<br> <center><span class="pquote2ar"> "فــلا نـامــت أعيــن الجـبنــاء"</span></center>
+            </p></th>
+        </tr>
+    </table>
+    <br><h2 class="h2d">What about the <span class="gold">background</span> ?</h2><br>
+    <center><img src="aswalmadina.jpg"></center><br>
+    <p class="sd">The background shows the destruction arabs made in the lands, castles and cities of the enemies.</p><br>
 </div>
 <hr><hr>
 <div class="b4">
@@ -1066,6 +1084,10 @@
 <table class="tt">
     <tr>
         <th class="p4"><img src="dakhla.jpg" loading="lazy"></th>
+    </tr>
+    <tr><th><hr class="noshr"></th></tr>
+    <tr>
+        <th class="p4"><img src="dakhla2.jpg" loading="lazy"></th>
     </tr>
 </table>
 <table class="tda2" border="0">
@@ -1217,16 +1239,15 @@
 
 
     window.addEventListener("load",function(){
-        loa.style.display="none";
         para1.style.display="none";
         para.style.display="inline";
     });
     function alertt(){
-       /*/ if (!isMobile()){
+ if (!isMobile()){
   console.log("Desktop device detected");
-  window.location.href = "https://bacinfo2024.github.io/desktop/";
+  /*window.location.href = "https://bacinfo2024.github.io/desktop/"*/;
   
-}/*/
+}
     setTimeout(main, 1500);
 function main(){ol.style.display="none";
         body.style.display="inline";
