@@ -20,7 +20,7 @@
             header{
                 height:60px;
                 background: #0f0f0f;
-                padding: 0 50px;
+                
                 text-align: center;
                 animation: header 4s ;
             }
@@ -37,7 +37,11 @@
                 text-align: center;
                 animation: dd;
                 animation-duration: 1s;
+                width: 60%;
                 animation-iteration-count: infinite;
+                margin-left: auto;
+                margin-right: auto;
+                margin-left: 12%
             }
            
             
@@ -56,16 +60,16 @@
                 border: 0;
             }
             @keyframes hr{
-  0%   {top: 0px; left: 0px; background-color: #262626;}
-  12.5%  {top: 0px; left: 10px; background-color: #262626;}
-  25%  {top: 10px; left: 10px; background-color: #a70000;}
-  37.5%  {top: 10px; left: 0px; background-color: #262626;}
-  50% {top: 0px; left: 0px; background-color: #262626;}
-  62.5%  {top: 0px; left: 10px;  background-color: #262626;}
-  75%  {top: 10px; left: 10px; background-color: #a70000;}
-  87.5%  {top: 10px; left: 0px; background-color: #262626;}
-  100% {top: 0px; left: 0px; background-color: #262626;}
-}
+                0%   {top: 0px; left: 0px; background-color: #262626;}
+                12.5%  {top: 0px; left: 10px; background-color: #262626;}
+                25%  {top: 10px; left: 10px; background-color: #a70000;}
+                37.5%  {top: 10px; left: 0px; background-color: #262626;}
+                50% {top: 0px; left: 0px; background-color: #262626;}
+                62.5%  {top: 0px; left: 10px;  background-color: #262626;}
+                75%  {top: 10px; left: 10px; background-color: #a70000;}
+                87.5%  {top: 10px; left: 0px; background-color: #262626;}
+                100% {top: 0px; left: 0px; background-color: #262626;}
+                }
 
             .banner img{
                 width: 100%;
@@ -150,17 +154,17 @@
                 background: url(quds.jpg) no-repeat center ;
             background-size: cover;
             }
-.quote2arr{
-    width: auto;
-   
-}
-.arabquote{
-    font-family: 'Gulzar', serif;
-    color: white;
-    font-size: 22px;
-    text-shadow: 0 0 3px black, 0 0 5px black; 
-    width: 90%;
-}
+            .quote2arr{
+                width: auto;
+            
+            }
+            .arabquote{
+                font-family: 'Gulzar', serif;
+                color: white;
+                font-size: 22px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                width: 90%;
+            }
             
             .container span{
                 color: white;
@@ -495,7 +499,7 @@
             .banner img {
                 display: block;
                 width: 100%;
-                height: 90vw;
+                height: 110vw;
             }
 
             .overlay-text {
@@ -679,6 +683,7 @@
                 color: rgb(206, 206, 206);
                 font-weight: 10;
                 text-shadow: 0 0 3px black, 0 0 5px black; 
+                margin-left: 10px;
             }
             .sd2{
                 font-family: Allerta Stencil;
@@ -696,6 +701,7 @@
             }
             .h2d{
                 font-family:Nova Flat;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
             }
             .h2dd{
                 margin-left: auto;
@@ -707,6 +713,7 @@
             .h3d{
                 font-weight: 20;
                 color: #e6e6e6;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
             }
             .dimg1 img{
                 width: 80%;
@@ -751,6 +758,7 @@
             }
             .thth{
                 text-align: center;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
             }
             .tbequest{
                 width: 50%;
@@ -903,6 +911,22 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+            .dix{
+                width: 20%;
+            }
+            .tis3in{
+                width: 80%;
+            }
+            .cent{
+                width: 100%;
+            }
+            details > summary {
+
+            }
+
+            details > img {
+            margin-left: 20px;
+            }
 </style>
 
 <body onload="alertt()">
@@ -913,9 +937,14 @@
 </center></div>
 <div  id="body">  
 <header >
-        <section id="home">
-            <center><h1 class="title">Bac Info 2k24</h1></center>
-    </section>
+    <table class="cent" >
+        <tr>
+            <th class="dix"><details><summary><img src="english.png" width="25" height="15"></summary><img src="tunisia.png" width="25" height="15"></details></th>
+            <th class="tis3in"><section id="home">
+                <center><h1 class="title">𝖔𝖒𝖓𝖎𝖆 𝖈𝖆𝖚𝖘𝖆 𝖋𝖎𝖚𝖓𝖙</h1></center>
+        </section></th>
+        </tr>
+    </table>
     </header>
     
 <div class="banner">
@@ -940,8 +969,9 @@
     </p></center>
 
     <br>
+    <center><p class="pquote backg">𝕼𝖚𝖎 𝖊 𝖉𝖔𝖛𝖊 𝖑𝖆 𝖈𝖗𝖊𝖆𝖙𝖎𝖛𝖎𝖙𝖆 𝖊. 😉</p></center>
     <br><center>
-    <video controls="controls2" poster="explicit.jpg">
+    <video controls="controls" poster="explicit.jpg">
         <source src="vid.mp4">
     </video></center>
     <br>
@@ -973,13 +1003,13 @@
                     <th class="dimg2"><img src="persdakhla.jpg" loading="lazy"></th>
             </tr>
             <tr>
-                <th colspan="3"><p class="sd">The king used is not in fact a precise charackter that existed in the past. Simply because we can't display every great arabic king so we made up a charakter that looks like every one of them.</p></th>
+                <th colspan="3"><p class="sd">The king we show isn't a real person from history. We couldn't include every great Arabic king, so we made a character who's like them.</p></th>
             </tr>
             <tr>
                 <th colspan="3"><br><br></th>
             </tr>
             <tr>
-                <th colspan="3" class="nos"><h2 class="h3d" >About</h2><br><p class="sd2"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> &nbsp; &nbsp; <span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span> <br> ("<span class="white">I came, I saw, I conquered</span>") <br>is a Latin phrase used to refer to a <span class="whiteanimat">swift</span>, <span class="whiteanimat">conclusive</span> victory.  The phrase is popularly attributed to Julius Caesar.<br><br>**( <span class="whiteanimat">swift</span> = 
+                <th colspan="3" class="nos"><h2 class="h3d" >About</h2><br><p class="sd"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> &nbsp; &nbsp; <span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span> <br> ("<span class="white">I came, I saw, I conquered</span>") <br>is a Latin phrase used to refer to a <span class="whiteanimat">swift</span>, <span class="whiteanimat">conclusive</span> victory.  The phrase is popularly attributed to Julius Caesar.<br><br>**( <span class="whiteanimat">swift</span> = 
                     quick ; <span class="whiteanimat">conclusive</span> = decisive)**
                 </p><br><br><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></th>
             </tr>
@@ -1014,7 +1044,7 @@
     </table>
     <br><h2 class="h2d">What about the <span class="gold">background</span> ?</h2><br>
     <center><img src="aswalmadina.jpg"></center><br>
-    <p class="sd">The background shows the destruction arabs made in the lands, castles and cities of the enemies.</p><br>
+    <p class="sd">The background shows the destruction arabs leave in the lands, castles and cities of the enemies.</p><br>
 </div>
 <hr><hr>
 <div class="b4">
@@ -1085,7 +1115,7 @@
     <tr>
         <th class="p4"><img src="dakhla.jpg" loading="lazy"></th>
     </tr>
-    <tr><th><hr class="noshr"></th></tr>
+    <tr><th><br><hr class="noshr"><br></th></tr>
     <tr>
         <th class="p4"><img src="dakhla2.jpg" loading="lazy"></th>
     </tr>
