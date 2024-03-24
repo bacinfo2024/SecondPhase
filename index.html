@@ -163,10 +163,10 @@
                 border-radius: 100px;
                 text-shadow: 0 0 3px black, 0 0 5px black; 
                 color: white;
-}
+            }
             .quote2{
                 background: url(quds.jpg) no-repeat center ;
-            background-size: cover;
+                background-size: cover;
             }
             .quote2arr{
                 width: auto;
@@ -976,9 +976,40 @@
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
-
             }
-            
+            .affiche{
+                background: url(affiche.jpg) no-repeat center ;
+                background-size: cover;
+                width: 80%;
+                height: 110vw;
+                position: fixed;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 5;
+                margin-top: 70px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -65%);
+            }
+            .backblanchh{
+                background-color: white;
+                border: 1px solid black;
+            }
+            .max{
+                width: 100%;
+                height: 110vh;
+            }
+            .shadow{
+                background-color: #000000bb;
+                position: fixed;
+                z-index: 5;
+            }
+            .echap{
+                background-color: red;
+                color: white;
+                font-size: 15px;
+                right: 1;
+            }
 </style>
 
 <body onload="alertt()">
@@ -988,6 +1019,16 @@
     <br><br><br>
 </center></div>
 <div  id="body">  
+    <div class="shadow max" id="affi">
+        <div class="affiche" >
+            <table>
+                <tr>
+                    <th class="tis3in">&nbsp;</th>
+                    <th class="dix"><button onclick="nahi()" class="echap">&nbsp;close X&nbsp;</button></th>
+                </tr>
+            </table>
+        </div>
+    </div>
 <header >
     <table class="cent">
         <tr>
@@ -1007,6 +1048,7 @@
     <th><center>- <span class="iyeb red"> الإيــــاب</span> -</center></th></table></div>
     
 </div>
+
 <hr class="hrbanner">
 <div class="underall">
     <div class="tadhlil_khfif">
@@ -1027,7 +1069,7 @@
     <center><p class="pquote backg">𝕼𝖚𝖎 𝖘𝖙𝖆 𝖑𝖆 𝖈𝖗𝖊𝖆𝖙𝖎𝖛𝖎𝖙𝖆. 😉</p></center>
     <br><center>
     <video controls="controls" poster="explicit.jpg">
-        <source src="vid.mp4">
+        <source src="video.mp4">
     </video></center>
     <br>
 </section>
@@ -1319,11 +1361,14 @@
 </body>
 </html>
 <script>
-    LetTheDogsOut=true;
     ol=document.getElementById("overlay");
     body=document.getElementById("body");
+    affi=document.getElementById("affi");
     body.style.display="none";
-        para.style.display="none";
+    para.style.display="none";
+    function nahi(){
+        affi.style.display="none";
+    }
         function isMobile() {
   const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
   return regex.test(navigator.userAgent);
@@ -1345,6 +1390,7 @@ function main(){ol.style.display="none";
         body.style.display="inline";
         }}
 function hide(){document.getElementById("alert").style.display="none";}
+
 var countDownDate = new Date("MAR 02, 2024 15:30:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
@@ -1362,9 +1408,6 @@ var x = setInterval(function() {
 }, 1000);
 a=document.getElementById("ac");
 document.addEventListener('contextmenu', event => event.preventDefault());
-    function history() {
-  window.location.href = "https://bacinfo2024.github.io/history/";
-  }
   function link() {
   window.location.href = "https://en.wikipedia.org/wiki/Veni,_vidi,_vici";
   }
