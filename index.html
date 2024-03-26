@@ -190,14 +190,16 @@
                 text-align: center;
             }
             .text1{
-                font-size: 60px;
+                font-size: 40px;
                 letter-spacing: 8px;
                 position: relative;
                 text-align: center;
                 background-color: gray;
+                font-family: nova flat;
             }
             .text2{
                 font-size: 30px;
+                font-family: nova flat;
             }
             
             .container img{
@@ -234,7 +236,7 @@
                 text-align: center;
             }
             .text1{
-                font-size: 40px;
+                font-size: 30px;
                 letter-spacing: 8px;
                 position: relative;
                 text-align: center;
@@ -242,7 +244,7 @@
                 animation: text 3s 1;
             }
             .text2{
-                font-size: 30px;
+                font-size: 20px;
                 
 
             }
@@ -281,18 +283,17 @@
             .pquote{
                 text-shadow:0 0 20px #FFD700;
                 margin-left: auto;
-                font-family: Allerta Stencil;
                 margin-right: auto;
                 align-items: center;
-                text-transform: uppercase;
                 line-height: 60px;
                 font-size: 20px;
-                font-family: sans-serif;
                 text-align: center;
-                animation: quote;
-                animation-duration: 5s;
-                animation-iteration-count: infinite;
                 text-shadow: 0 0 3px black, 0 0 5px black; 
+                font-family: Nova Flat;
+                border-width: 100%;
+                width: 80%;
+                border-radius: 100px;
+                color: white
             }
             .hrquote{
                 width: 13%;
@@ -398,6 +399,7 @@
                 filter:drop-shadow(3px 3px 0 black) ;
                 border-radius: 50%;
                 width: 20%;
+                font-family: nova flat;
             }
             .amoud img{
                 width: 100%;
@@ -545,7 +547,6 @@
               }
               .mybequestt{
                 text-align: center;
-                margin-left :-25px;
                 width: 300px;
                 font-family: Nova Flat;
                 letter-spacing: 1px;
@@ -592,6 +593,7 @@
               }
             .backg{
                 background-color: #00000073;
+                font-family: nova flat;
             }
             #knowmore{
                 border: 1px solid white;
@@ -899,8 +901,8 @@
             }
             @keyframes redd {
                 0%{color: white;}
-                25%{color: #a70000;}
-                75%{color: #a70000;}
+                25%{color: #a70000; text-shadow: 1px white;}
+                75%{color: #a70000; text-shadow: 1px white;}
                 100%{color: white;}
             }
             .goldanimat{
@@ -972,7 +974,7 @@
                 background-image: linear-gradient(to right, 
                         red 0%, red 33%, 
                         white  33%, white  66%, 
-                        green 66%, green 100%);
+                        green 75%, green 100%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
@@ -1007,18 +1009,16 @@
             .echap{
                 color: white;
                 font-size: 15px;
-                margin-top: 130;
+                margin-top: 124vw;
                 margin-left:auto;
                 margin-right: auto;
-                animation: redback 3s infinite;
+                color: black;
+                font-weight: 900;
+                background: linear-gradient(90deg in oklab, red , white , green);
+                padding: 5px 10px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
             }
-            @keyframes redback{
-                0%{background-color: white;}
-                25%{background-color: rgb(255, 68, 68);}
-                50%{background-color: red;}
-                25%{background-color: rgb(255, 68, 68);}
-                0%{background-color: white;}
-            }
+
 </style>
 
 <body onload="alertt()">
@@ -1030,12 +1030,7 @@
 <div  id="body">  
     <div class="shadow max" id="affi">
         <div class="affiche" >
-            <table>
-                <tr>
-                    <th class="tis3in">&nbsp;</th>
-                    <th class="dix"><button onclick="nahi()" class="echap">&nbsp;close X&nbsp;</button></th>
-                </tr>
-            </table>
+            <center><button onclick="nahi()" class="echap red">&nbsp;CLOSE&nbsp;</button></center>
         </div>
     </div>
 <header >
@@ -1071,7 +1066,7 @@
 <hr4 class="accentaigu">``</hr4>
     <center><div class="amoud"><a href="https://drive.google.com/drive/mobile/folders/1udtA_jOdWUyJEOWdAvyGIQJzcMco61Rp?fbclid=IwAR3UK1TGLM4dJv98CP8_ZFNBfYqSixdIV3l8v757Vp1AIMA6D6i7wRSXG08"><img src="logo2.png"></a></div></center>
     <hr class="hrquote">
-    <center><p class="pquote"><span class="backg">be cearful who you let on your ship because some  </span><span class="backg"> 𝖕𝖊𝖔𝖕𝖑𝖊 𝖜𝖎𝖑𝖑 𝖘𝖎𝖓𝖐 𝖙𝖍𝖊 𝖜𝖍𝖔𝖑𝖊 𝖘𝖍𝖎𝖕 𝖏𝖚𝖘𝖙 𝖇𝖊𝖈𝖆𝖚𝖘𝖊 𝖙𝖍𝖊𝖞  </span><span class="backg"> 𝖈𝖆𝖓'𝖙 𝖇𝖊 𝖙𝖍𝖊 𝖈𝖆𝖕𝖙𝖆𝖎𝖓. </span><span class="backg"> 𝖜𝖍𝖊𝖓 𝖊𝖛𝖊𝖗𝖞𝖇𝖔𝖉𝖞 𝖐𝖓𝖔𝖜𝖘 𝖜𝖍𝖔 𝖙𝖍𝖊 𝖗𝖊𝖆𝖑 <span class="goldanimat">𝖈𝖆𝖕𝖙𝖆𝖎𝖓</span> 𝖎𝖘. </span>
+    <center><p class="pquote"><span class="backg">be careful who you let on your ship because some  </span><span class="backg"> people will sink the whole ship just because they  </span><span class="backg"> can't be the captain. </span><span class="backg"> when everybody knows who the real <span class="goldanimat">𝖈𝖆𝖕𝖙𝖆𝖎𝖓</span> is. </span>
     </p></center>
 
     <br>
@@ -1109,7 +1104,7 @@
                     <th class="dimg2"><img src="persdakhla.jpg" loading="lazy"></th>
             </tr>
             <tr>
-                <th colspan="3"><p class="sd">The king we show isn't a real person from history. We couldn't include every great Arabic king, so we made a character who looks like everyone of them.</p></th>
+                <th colspan="3"><p class="sd">The king we show <span class="whiteanimat"> isn't a real person from history</span>. We couldn't include <span class="whiteanimat"> every great Arabic king</span>, so <span class="whiteanimat"> we made a character that looks like everyone of them.</span></p></th>
             </tr>
             <tr>
                 <th colspan="3"><br><br></th>
@@ -1154,7 +1149,7 @@
     </table>
     <br><h2 class="h2d">  about the <span class="gold">background</span></h2><br>
     <center><img src="aswalmadina.jpg"></center><br>
-    <p class="sd whiteanimat2">The background shows the destruction arabs leave in the lands, castles and cities of the enemies.</p><br>
+    <p class="sd whiteanimat2">The background shows the destruction arabs used to leave in the lands, castles and cities of the enemies.</p><br>
 </div>
 
 <hr><hr>
@@ -1179,14 +1174,17 @@
 <hr><hr>
 <div class="b6">
     <br>
-    <center><h3 class="h2dd">The K.I.N.G 3D</h3></center>
+    <center><h3 class="h2dd">The K.I.N.G <span class="red"> 3D </span></h3></center>
     <br>
     <center><img src="unfinished king.jpg" loading="lazy"></center>
+    <br>
+    <center><img src="unfinished king2.jpg" loading="lazy"></center>
     <br>
     <center><video controls="controls" poster="explicit.jpg">
         <source src="3d.mp4">
     </video></center>
-    <br>
+    
+    <center><p class="sd">- 01/03/2024 -</p></center><br>
     <hr class="noshr">
     <br>
 </div>
@@ -1198,16 +1196,12 @@
     <center><h3 class="h2dd">The Banner</h3></center>
     <br>
     <center><img src="message.png" loading="lazy"></center>
-    <br><span class="bannervid">
-    <center><video controls="controls" poster="explicit.jpg">
-        <source src="banner vid.mp4">
-    </video></span></center>
     <br>
 </div>
 <hr><hr>
 <br><br><br>
 <hr><hr>
-<div class="b3">
+<div class="b6">
     <br>
     <center><h3 class="h2dd">Stickers</h3></center>
     <br>
@@ -1226,7 +1220,7 @@
 </br>
 <table class="tda2" border="0">
     <tr>
-        <th colspan="3" class="thth"><h3 class="h33">our humble touch</h3></th>
+        <th colspan="3" class="thth"><h3 class="h33">The TIFO</h3></th>
     </tr>
     <tr><th><br></th></tr>
     <tr>
@@ -1237,10 +1231,6 @@
     </tr>
 </table>
 <table class="tt">
-    <tr>
-        <th class="p4"><img src="dakhla.jpg" loading="lazy"></th>
-    </tr>
-    <tr><th><br><hr class="noshr"><br></th></tr>
     <tr>
         <th class="p4"><img src="dakhla2.jpg" loading="lazy"></th>
     </tr>
@@ -1361,7 +1351,7 @@
     <img src="thx.jpg"><hr><hr>
 </div>
 <br>
-<center><p class="mybequestt">Before you judge, ask for the opinion of the experts.<br><br><hr class="rbo3hr"><br><span class="embrace">𝖊𝖒𝖇𝖗𝖆𝖈𝖊 𝖈𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖘𝖈𝖎𝖊𝖓𝖈𝖊</span></p></center>
+<center><p class="mybequestt">Before you judge, ask for the opinion of the experts.<br><br><center><hr class="rbo3hr"></center><br><span class="embrace">𝖊𝖒𝖇𝖗𝖆𝖈𝖊 𝖈𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖘𝖈𝖎𝖊𝖓𝖈𝖊</span></p></center>
 <br>
 <div class="lines">
 </center>
