@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
     <head>
@@ -511,10 +512,19 @@
             }
               #overlay{
                 height: 100vh;
-                background: url(load.gif) no-repeat center center fixed;
-                background-size: cover;
-                top:0;
-                bottom: 0;
+                animation: bk;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+              }
+              @keyframes bk{
+                0%{background-color: rgb(201, 201, 201);}
+                15%{background-color: rgb(179, 179, 179);}
+                30%{background-color: rgb(156, 156, 156);}
+                45%{background-color: rgb(66, 66, 66);}
+                60%{background-color: rgb(117, 117, 117);}
+                75%{background-color: rgb(97, 97, 97);}
+                90%{background-color: rgb(44, 44, 44);}
+                100%{background-color: rgb(32, 32, 32);}
               }
 
               .b:active{
@@ -981,7 +991,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 z-index: 5;
-                margin-top: 85vh;
+                margin-top: 70vh;
                 margin-left: 85%;
             }
             .backblanchh{
