@@ -38,13 +38,13 @@
                 font-size: 20px;
                 text-shadow:0 0 20px black;
                 text-align: center;
-                animation: dd;
+                animation: ddd;
                 animation-duration: 1s;
                 width: 100%;
                 animation-iteration-count: infinite;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: -15px;
+                margin-top: -17px;
                 height: auto;
             }
            
@@ -81,7 +81,7 @@
                 37.5%  {top: 10px; left: 0px; background-color: #262626;}
                 50% {top: 0px; left: 0px; background-color: #262626;}
                 62.5%  {top: 0px; left: 10px;  background-color: #262626;}
-                75%  {top: 10px; left: 10px; background-color: #a70000;}
+                75%  {top: 10px; left: 10px; background-color: white;}
                 87.5%  {top: 10px; left: 0px; background-color: #262626;}
                 100% {top: 0px; left: 0px; background-color: #262626;}
                 }
@@ -313,8 +313,8 @@
                 animation: mem;
                 animation-duration: 20s;
                 animation-iteration-count: infinite;
-                width: 60%;
-                height: 350%;
+                width: 90%;
+                height: 55vh;
                 background-size: cover;
                 margin-left: auto;
                 margin-right: auto;
@@ -322,6 +322,19 @@
                 min-height: 250px;
                 box-shadow: 0 0 10px #000000;
             }
+            @keyframes mem {
+                0%   {top: 0px; left: 0px; background-image: url("julius.jpg") ;}
+                10%   {top: 0px; left: 0px; background-image: url("veni1.jpg") ;}
+                20%   {top: 0px; left: 0px; background-image: url("julius2.jpg") ;}
+                30%   {top: 0px; left: 0px; background-image: url("veni2.jpg") ;}
+                40%   {top: 0px; left: 0px; background-image: url("julius3.jpg") ;}
+                50%   {top: 0px; left: 0px; background-image: url("veni3.jpg") ;}
+                60%   {top: 0px; left: 0px; background-image: url("julius4.jpg") ;}
+                70%   {top: 0px; left: 0px; background-image: url("veni4.jpg") ;}
+                80%   {top: 0px; left: 0px; background-image: url("julius3.jpg") ;}
+                90%   {top: 0px; left: 0px; background-image: url("julius5.jpg") ;}
+                100%   {top: 0px; left: 0px; background-image: url("julius.jpg") ;}
+                }
             .flags{
                 margin-left: auto;
                 margin-right: auto;
@@ -735,6 +748,12 @@
                 border: 0px;
                 margin-left: -40px;
             }
+            .dimg22{
+                width: 10vw;
+                height: 35vh;
+                border: 0px;
+                margin-left: -40px;
+            }
             .th1 .sd,.h2d{
                 margin-left: 10px;
             }
@@ -1017,7 +1036,17 @@
                 background-size: cover;
                 height: 30vh;
             }
-
+            .redd{
+                color: red;
+            }
+            .logo{
+                width: 30%;
+                width: 30%;
+            }
+            .logo img{
+                height: 10vh;
+                width: 50%;
+            }
 </style>
 
 <body onload="alertt()">
@@ -1035,11 +1064,11 @@
 <header >
     <table class="cent">
         <tr>
-            <th class="dix"><center><img src="moucha8eb.png" height="35" width="60" loading="lazy"></center></th>
+            <th class="dix"><center><img src="star.png" height="35" width="60" loading="lazy"></center></th>
             <th class="tis3in"><section id="home">
-                <center><h1 class="title">𝖔𝖒𝖓𝖎𝖆 𝖈𝖆𝖚𝖘𝖆 𝖋𝖎𝖚𝖓𝖙</h1></center>
+                <center><h1 class="title"><span class="green">𝖔𝖒𝖓𝖎𝖆 </class> <span class="whiteanimat">𝖈𝖆𝖚𝖘𝖆 </span>  <span class="redd" >𝖋𝖎𝖚𝖓𝖙 </span></h1></center>
         </section></th>
-        <th class="dix"><center><img src="crowngold.png" height="27" width="47" loading="lazy" class="animimg"></center></th>
+        <th class="dix"><center><img src="moucha8eb.png" height="35" width="60" loading="lazy" class="animimg"></center></th>
         </tr>
     </table>
     <hr class="hrbanner2">
@@ -1109,11 +1138,13 @@
                 <th colspan="3"><br><br></th>
             </tr>
             <tr>
-                <th colspan="3" class="nos"><h2 class="h3d" >About</h2><br><p class="sd"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> &nbsp; &nbsp; <span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span> <br> ("<span class="white">I came, I saw, I conquered</span>") <br>is a Latin phrase used to refer to a <span class="whiteanimat">swift</span>, <span class="whiteanimat">conclusive</span> victory.  The phrase is popularly attributed to Julius Caesar.<br><br>**( <span class="whiteanimat">swift</span> = 
+                <th class="dimg22"><div class="memories"></div></th>
+                <th colspan="2" class="nos"><h2 class="h3d" >About</h2><p class="sd"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> &nbsp; &nbsp; <span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span> <br> ("<span class="white">I came, I saw, I conquered</span>") <br>is a Latin phrase used to refer to a <span class="whiteanimat">swift</span>, <span class="whiteanimat">conclusive</span> victory.  The phrase is popularly attributed to Julius Caesar.<br><br>**( <span class="whiteanimat">swift</span> = 
                     quick ; <span class="whiteanimat">conclusive</span> = decisive)**
-                </p><br><br><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></th>
+                </p><br><br></th>
             </tr>
         </table>
+        <center><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></center>
         <hr class="noshr">
 
 </br>
@@ -1141,9 +1172,16 @@
             <th><img src="fact2.jpg" loading="lazy"></th>
         </tr>
         <tr>
-            <th colspan="3"><p class="sd whiteanimat2">Both Caesar's triumphant message, "Veni, Vidi, Vici," and the Arab conquests share a common theme of rapid victory. In 47 BC, Caesar's concise words to the Roman Senate celebrated his swift and decisive triumph over Pharnaces II of Pontus in Asia Minor. Similarly, during the Arab conquests, driven by Islamic faith and unity, they swiftly expanded their territory, overcoming great empires with skillful tactics. Both instances highlight the effectiveness of quick and decisive action in achieving military success and leaving a lasting impact on history.
-                The quote we wanted to use at the beggining is :<br> <center><span class="pquote2ar"> "فــلا نـامــت أعيــن الجـبنــاء"</span></center>
+            <th colspan="3"><p class="sd whiteanimat2">Both Caesar's triumphant message, <span class="redd"> "Veni, Vidi, Vici,"</span> <br> and <span class="redd"> the Arab conquests </span> share a common theme of <span class="redd"> rapid victory </span>. In 47 BC, Caesar's concise words to the Roman Senate celebrated his swift and decisive triumph over Pharnaces II of Pontus in Asia Minor (Turkey). Similarly, during the Arab conquests, <span class="redd"> driven by Islamic faith and unity </span>, they swiftly expanded their territory, overcoming great empires with skillful tactics. Both instances highlight the <span class="redd">effectiveness of quick and decisive </span> action in achieving <span class="redd">military success</span> and leaving a lasting impact on <span class="redd"> history.</span>
+                The quote we wanted to use at the beggining is :<br> 
             </p></th>
+        </tr>
+    </table>
+    <table>
+        <tr >
+            <th class="logo"> <img src="logo2.png" ></th>
+            <th><center><span class="pquote2ar"> "فــلا نـامــت أعيــن الجـبنــاء"</span></center></th>
+            <th class="logo"><img src="moucha8eb.png" ></th>
         </tr>
     </table>
     <br><h2 class="h2d">  about the <span class="gold">background</span></h2><br>
@@ -1181,6 +1219,8 @@
     <center><img src="unfinished king2.jpg" loading="lazy" class="prod2"></center>
     <br></div><br>
     <center><h3 class="h2dd">New Technique Unlocked.</h3></center>
+    <center><h3 class="h2dd"><span class="whiteanimat"> Done successfully and professionally.</span></h3></center>
+    <center><h3 class="h2dd"><span class="redd">with limited resources.</span></h3></center>
     <center><video controls="controls" poster="explicit.jpg">
         <source src="3d.mp4">
     </video></center>
@@ -1197,6 +1237,10 @@
     <center><h3 class="h2dd">The Banner</h3></center>
     <br>
     <center><img src="message.png" loading="lazy"></center>
+    <br>
+    <center><video controls="controls" poster="explicit.jpg" class="bannervid">
+        <source src="banner vid.mp4">
+    </center>
     <br>
 </div>
 <hr><hr>
